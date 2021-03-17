@@ -1,0 +1,50 @@
+body{
+    background-image: url(image/shohel.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.form{
+    width: 100%;
+    text-align: center;
+}
+.form h1{
+    font-size: 45px;
+    color: springgreen;
+}
+.formSection form input{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 7px;
+    border-radius: 10px;
+    background-color: hotpink;
+    color: black;
+    transition: 3s;
+}
+.formSection form input:hover{
+    transform: scale(5s);
+    background-color:black;
+    color:#ff0000;
+}
+.filled{
+    width: 500px;
+    padding: 10px 0px;
+}
+.btn{
+    margin-top: 20px;
+}
+.btn button{
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 7px;
+    background: green;
+    color: honeydew;
+}
+.btn button:hover{
+    background:slateblue;
+    color: red;
+}
